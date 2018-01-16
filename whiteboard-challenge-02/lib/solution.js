@@ -19,5 +19,3 @@ function doTheThing(arr) {
   }
  return null
 }
-
-

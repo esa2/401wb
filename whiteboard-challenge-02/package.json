@@ -1,0 +1,18 @@
+{
+  "name": "whiteboard-challenge-02",
+  "version": "1.0.0",
+  "description": "Find two highest numbers",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Ed",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^22.1.1"
+  }
+}

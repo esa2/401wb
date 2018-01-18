@@ -1,0 +1,18 @@
+{
+  "name": "whiteboard-challenge-03",
+  "version": "1.0.0",
+  "description": "Traverse nested objects",
+  "main": "./lib/solution.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Ed",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^22.1.2"
+  }
+}

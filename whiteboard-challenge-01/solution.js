@@ -7,4 +7,3 @@ function doTheThing(arr) {
     obj.avg = arr.reduce((acc, cur) => acc + cur, 0) / 2
     return obj
 }
-doTheThing(arr2)

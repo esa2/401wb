@@ -1,0 +1,17 @@
+{
+  "name": "whiteboard-challenge-04",
+  "version": "1.0.0",
+  "description": "Write function to intersect 2 arrays",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Ed",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^22.1.3"
+  }
+}

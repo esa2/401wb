@@ -1,0 +1,23 @@
+{
+  "name": "401wb",
+  "version": "1.0.0",
+  "description": "wb",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^22.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esa2/401wb.git"
+  },
+  "author": "Ed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/esa2/401wb/issues"
+  },
+  "homepage": "https://github.com/esa2/401wb#readme"
+}

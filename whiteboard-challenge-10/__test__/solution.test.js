@@ -18,4 +18,24 @@ describe('Solution Module', function() {
       expect(solution.checkBraces('it is false!!!{{}}}')).toEqual(false)
     })
   })
+  describe('#BinarySearch', function() {
+    it('should return null if missing arguments', function() {
+      expect(solution.binarySearch()).toEqual(null)
+    })
+  })
+  describe('#BinarySearch', function() {
+    it('should return 2 if at index 0', function() {
+      expect(solution.binarySearch([2], 2)).toEqual({value: 2, index: 0})
+    })
+  })
+  describe('#BinarySearch', function() {
+    it('should return 2 at index 1', function() {    
+      expect(solution.binarySearch([1, 2, 3, 4, 5, 6], 2)).toEqual({value: 2, index: 1})
+    })
+  })
+  describe('#BinarySearch', function() {
+    it('should return 6 at index 5', function() {
+      expect(solution.binarySearch([1, 2, 3, 4, 5, 6], 6)).toEqual({value: 6, index: 5})
+    })
+  })
 })

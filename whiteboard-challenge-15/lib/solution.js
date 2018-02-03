@@ -9,7 +9,6 @@ solution.findNodes = function(tree) {
   tree.breadthFirst(current => {
     if (current.val.children.length === 0) {
       emptyNester.push(current.val)
-      console.log(emptyNester)
     }
   })
   return emptyNester

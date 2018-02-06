@@ -24,7 +24,7 @@ describe('Solution Module', function() {
     tree.insert(5, 10)
     tree.insert(1, 5)
     tree.insert(2, 5)
-    it('should return total of all node values', function() {
+    it('should return total of all node values: 63', function() {
       expect(solution.findNodes(tree)).toEqual(63)
     })
   })

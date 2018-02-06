@@ -1,0 +1,17 @@
+{
+  "name": "whiteboard-challenge-17",
+  "version": "1.0.0",
+  "description": "wb17",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Ed",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^22.1.4"
+  }
+}

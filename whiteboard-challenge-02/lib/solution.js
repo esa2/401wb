@@ -15,7 +15,7 @@ function doTheThing(arr) {
         if (ele > obj.imAlmostHigh + 1) obj.imAlmostHigh = ele
       }
     })
-  return obj
+    return obj
   }
- return null
+  return null
 }
